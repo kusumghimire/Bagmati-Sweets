@@ -1,0 +1,22 @@
+footer {
+    .container {
+        .footer-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    } //container ends here
+    .copyright {
+        .grid1 {
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .copyright-2 {
+                span {
+                    color: #2680eb;
+                }
+            }
+        }
+    }
+}

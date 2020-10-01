@@ -1,0 +1,59 @@
+@import "variables";
+@import "typography";
+@import "grid";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cera Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import "header";
+// @import "banner-slider";
+@import "topNav";
+@import "mobile";
+@import "topNav";
+@import "mobile";
+@import "hero-slider";
+// @import "banner";
+@import "about-us";
+@import "menu";
+@import "delivery";
+@import "footer";
+@import "contact-page";
+@import "modal";
+
+@media only screen and (max-width: 992px) {
+  @import "992_lg/header";
+  @import "992_lg/hero-slider";
+
+}
+@media only screen and (max-width: 768px) {
+  @import "768_md/contact-page";
+  @import "768_md/about-us";
+  @import "768_md/delivery";
+  @import "768_md/menu";
+  @import "768_md/hero-slider";
+  @import "768_md/footer";
+
+}
+@media only screen and (max-width: 576px) {
+  @import "576_sm/hero-slider";
+  @import "576_sm/menu";
+  @import "576_sm/delivery";
+  @import "576_sm/footer";
+
+}
+@media only screen and (max-width: 375px) {
+  @import "375_col/hero-slider";
+}
+@import "rowforpaddingmargin";

@@ -1,0 +1,27 @@
+.grid {
+  .row.delivery-section {
+    margin: 4rem 0;
+    .delivery {
+      display: grid;
+      margin: 1fr;
+      grid-gap: 2rem 0;
+      .delivery-img {
+        grid-column: 1/-1;
+        img {
+          width: 100%;
+        }
+      }
+      .delivery-contact {
+        grid-column: 1/-1;
+        display: flex;
+        margin: auto 3rem;
+        flex-direction: column;
+        .cont1 {
+          margin-top: 3rem;
+          // justify-content: flex-start;
+          // align-items: center;
+        }
+      }
+    }
+  }
+}

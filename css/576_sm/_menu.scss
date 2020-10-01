@@ -1,0 +1,50 @@
+.menu-section {
+  .menu-img {
+    top: -90px;
+    margin: auto 2rem;
+    margin-top: -4rem;
+    padding: 2rem 1rem;
+    grid-row-gap: 1rem;
+    .menu1 {
+      grid-column: 1/-1;
+      grid-row-gap: 0.2rem;
+      align-items: center;
+      img{
+        height: 50px;
+      }
+    }
+  }
+    h2 {
+      padding-top: 24rem;
+      font-size: 2rem;
+    }
+  .side-table {
+    .main-table {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 4rem;
+      .tab {
+        .grid {
+          .tablinks {
+            border: none;
+            background-color: transparent;
+            margin: 1rem;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  #menu-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 120px 120px 120px 120px;
+    grid-gap: 2rem 4rem;
+    padding: 2rem 4rem;
+    .list1 {
+      grid-template-columns: 1fr 1.5fr;
+      grid-template-rows: auto;
+    }
+  }
+}
